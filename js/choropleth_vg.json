@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+    "title": "Car Resale in Malaysia by State",
+    "width": 800,
+    "height": 400,
+    "projection": {"type": "equalEarth"},
+    "data": {
+    "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/js/ne_10m_admin_1_states_provinces.topojson",
+    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+    },
+    "mark":"geoshape"
+}
+
+
+
+
+
+
+
+
+
+
+
