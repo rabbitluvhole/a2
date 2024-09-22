@@ -26,7 +26,11 @@
         }
       }
     ],
-    "mark": {"type": "geoshape"},
+    "mark": {"type": "geoshape",
+    "stroke": "black",      
+    "strokeWidth": 1.5   
+  },
+    
     "encoding": {
       "color": {
         "condition": {
