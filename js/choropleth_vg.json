@@ -19,16 +19,19 @@
                 "key": "State",
                 "fields": ["Car_Count"]
             }
+            ,"as": ["Car_Count"] 
         }
 
     ],
-    "mark": {"type": "geoshape"},
+    "mark": {"type": "geoshape",
+                "stroke": "black",   
+                "strokeWidth": 0.5 },
     "encoding": {
         "color": {
             "field": "Car_Count",
             "type": "quantitative",
             "scale": {"type": "log"},
-            "legend": {"title": "Car Count"}
+            "legend": {"title": "Car Count"}           
         },
         "tooltip": [
             {"field": "properties.name", "type": "nominal", "title": "State"},
