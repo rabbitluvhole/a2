@@ -8,7 +8,34 @@
     "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/js/ne_10m_admin_1_states_provinces.topojson",
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
     },
-    "mark":"geoshape"
+    "transform": [
+        {
+            "lookup": "properties.name",
+            "from":{
+                "data":{
+                    "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/state_car_count.csv",
+                    "format": {"type": "csv"}
+                },
+                "key": "State",
+                "fields": ["Car_Count"]
+            }
+        }
+
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+        "color": {
+            "field": "Car_Count",
+            "type": "quantitative",
+            "scale": {"type": "log"},
+            "legend": {"title": "Car Count"}
+        },
+        "tooltip": [
+            {"field": "properties.name", "type": "nominal", "title": "State"},
+            {"field": "Car_Count", "type": "quantitative", "title": "Car Count"}
+        ]
+    }
+    
 }
 
 
