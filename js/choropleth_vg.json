@@ -28,7 +28,7 @@
     ],
     "mark": {"type": "geoshape",
     "stroke": "black",      
-    "strokeWidth": 1.5   
+    "strokeWidth": 1   
   },
     
     "encoding": {

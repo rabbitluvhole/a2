@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+    "text": "Car Resale in Malaysia by State",
+    "fontSize": 18,         
+    "anchor": "middle",  
+    "fontWeight": "bold"  
+  },
+    "width": 800,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/state_car_count.csv"
+    },
+    "mark": "circle",
+    
+    "encoding": {
+      "x": {
+        "field": "Car_Count",
+        "type": "quantitative",
+        "title": "Cars Resold"
+      },
+        "color":{
+            "field": "State",
+            "type": "nominal"
+        },
+        "size":{
+            "field": "Car_Count",
+            "type": "quantitative"
+        },
+      "tooltip": [
+        {"field": "State", "type": "nominal", "title": "State"},
+        {"field": "Car_Count", "type": "quantitative", "title": "Cars Resold"}
+      ]
+    }
+  }
+  
