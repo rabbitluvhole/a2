@@ -11,22 +11,55 @@
     "data": {
       "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/state_car_count.csv"
     },
+    "transform": [
+      {
+        "filter": "datum.Car_Count > 0"
+      }
+    ],
+    "selection": {
+        "highlight": {"type": "multi", "fields": ["State"], "bind": "legend"}
+      },
     "mark": "circle",
+    
     
     "encoding": {
       "x": {
         "field": "Car_Count",
         "type": "quantitative",
-        "title": "Cars Resold"
+        "title": "Cars Resold",
+        "scale": {"type": "linear", "domain": [1,410]},
+        "axis": {
+        "values": [1, 50, 100, 150, 200, 250, 300, 350],
+        "grid": false}
       },
         "color":{
             "field": "State",
-            "type": "nominal"
+            "type": "nominal",
+            "scale":{
+                "domain": [
+                    "Johor", "Kedah", "Melaka",  "Perak",  "Pulau Pinang",  "Selangor",  "Kuala Lumpur"
+                ],  
+                "range": [
+                    "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2"
+                ]               
+            }
+        },
+        "opacity":{
+            "condition": {"selection": "highlight", "value": 0.6},
+            "value": 0.2
         },
         "size":{
             "field": "Car_Count",
-            "type": "quantitative"
-        },
+            "type": "quantitative",
+            "scale": {
+                        "type": "threshold",
+                        "domain": [50, 100, 150, 200, 250, 300],  
+                        "range": [50, 150, 250, 350, 450, 550]     
+                    },
+            "legend": {"title": "Car Count",
+                        "format": ".1s"
+        }    
+                },
       "tooltip": [
         {"field": "State", "type": "nominal", "title": "State"},
         {"field": "Car_Count", "type": "quantitative", "title": "Cars Resold"}
