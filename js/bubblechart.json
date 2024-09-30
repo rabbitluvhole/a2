@@ -17,8 +17,13 @@
       }
     ],
     "selection": {
-        "highlight": {"type": "multi", "fields": ["State"], "bind": "legend"}
+        "state_highlight": {"type": "multi", "fields": ["State"], "bind": "legend"}
       },
+
+    
+
+      
+
     "mark": "circle",
     
     
@@ -32,6 +37,7 @@
         "values": [1, 50, 100, 150, 200, 250, 300, 350],
         "grid": false}
       },
+      
         "color":{
             "field": "State",
             "type": "nominal",
@@ -44,8 +50,9 @@
                 ]               
             }
         },
+
         "opacity":{
-            "condition": {"selection": "highlight", "value": 0.6},
+            "condition": {"selection": "state_highlight", "value": 0.6},
             "value": 0.2
         },
         "size":{
@@ -65,5 +72,13 @@
         {"field": "Car_Count", "type": "quantitative", "title": "Cars Resold"}
       ]
     }
+
+
+
+
+
+
+
+    
   }
   
