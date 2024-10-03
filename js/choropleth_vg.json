@@ -6,8 +6,8 @@
     "anchor": "middle",  
     "fontWeight": "bold"  
   },
-    "width": 400,
-    "height": 200,
+    "width": 600,
+    "height": 300,
     "projection": {"type": "equalEarth"},
     "data": {
       "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/js/ne_10m_admin_1_states_provinces.topojson",
