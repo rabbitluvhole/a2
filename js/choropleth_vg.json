@@ -1,55 +1,70 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
     "text": "Car Resale in Malaysia by State",
-    "fontSize": 18,         
-    "anchor": "middle",  
-    "fontWeight": "bold"  
+    "fontSize": 18,
+    "anchor": "middle",
+    "fontWeight": "bold"
   },
-    "width": 600,
-    "height": 300,
-    "projection": {"type": "equalEarth"},
-    "data": {
-      "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/js/ne_10m_admin_1_states_provinces.topojson",
-      "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
-    },
-    "transform": [
-      {
-        "lookup": "properties.name",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/state_car_count.csv",
-            "format": {"type": "csv"}
-          },
-          "key": "State",
-          "fields": ["Car_Count"]
-        }
+  "width": 600,
+  "height": 300,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/js/ne_10m_admin_1_states_provinces.topojson",
+    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/state_car_count.csv",
+          "format": {"type": "csv"}
+        },
+        "key": "State",
+        "fields": ["Car_Count"]
       }
-    ],
-    "mark": {"type": "geoshape",
-    "stroke": "black",      
-    "strokeWidth": 1   
-  },
-    
-    "encoding": {
-      "color": {
-        "condition": {
-          "test": "datum.Car_Count == 0 || datum.Car_Count == null", 
-          "value": "#d3d3d3" 
-        },
-        "field": "Car_Count",
-        "type": "quantitative",
-        "scale": {
-          "type": "log",
-          "domain": [1, 307],  
-          "scheme": "blues"
-        },
-        "legend": {"title": "Car Count"}
-      },
-      "tooltip": [
-        {"field": "properties.name", "type": "nominal", "title": "State"},
-        {"field": "Car_Count", "type": "quantitative", "title": "Cars Resold"}
-      ]
     }
-  }
-  
+    
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "stroke": "black",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": "datum.Car_Count == 0 || datum.Car_Count == null",
+            "value": "#d3d3d3"
+          },
+          "field": "Car_Count",
+          "type": "quantitative",
+          "scale": {
+            "type": "log",
+            "domain": [1, 307],
+            "scheme": "blues"
+          },
+          "legend": {"title": "Car Count"}
+        },
+        "tooltip": [
+          {"field": "properties.name", "type": "nominal", "title": "State"},
+          {"field": "Car_Count", "type": "quantitative", "title": "Cars Resold"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.properties.name == 'Selangor'"}
+                    ],
+      "mark": {"type": "text", "dy": 200, "dx": 30}, 
+      "encoding": {
+        "longitude": {"value": 101.5183},
+        "latitude": {"value": 3.0738},
+        "text": {"field": "properties.name", "type": "nominal"},  
+        "color": {"value": "black"}  
+      }
+    }
+  ]
+}
