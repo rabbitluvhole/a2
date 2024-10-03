@@ -6,8 +6,8 @@
     "anchor": "middle",  
     "fontWeight": "bold"  
   },
-    "width": 800,
-    "height": 400,
+    "width": 400,
+    "height": 200,
     "data": {
       "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/state_car_count.csv"
     },
