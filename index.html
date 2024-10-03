@@ -38,16 +38,13 @@
 
       <!-- pure grid group -->
     <div class="pure-g">
-        <div class="pure-u-1-2">
+        <div class="pure-u-1-4">
           <div class="description description-left">
             <h2>Choropleth Map Visualization</h2>
-            <p>The first column contains text and the second column contains a visualisation.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
+            <p>From the map we can see that <span class='boldBlue_text'> Kuala Lumpur </span> is the state with the highest number of cars resold. </p>
           </div>
         </div>
-        <div class="pure-u-1-2">
+        <div class="pure-u-3-4">
           <div id="choropleth_map" class="vis-container"></div>
         </div>
       </div>
@@ -55,8 +52,14 @@
 
         <!-- pure grid group -->
     <div class="pure-g">
+
+      <div class="pure-u-1-2">
+        <div id="bubble_chart" class="vis-container"></div>
+      </div>
+
+
         <div class="pure-u-1-2">
-          <div class="description description-left">
+          <div class="description description-right">
             <h2>Bubble Chart Visualization</h2>
             <p>The first column contains text and the second column contains a visualisation.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -64,9 +67,7 @@
               dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
           </div>
         </div>
-        <div class="pure-u-1-2">
-          <div id="bubble_chart" class="vis-container"></div>
-        </div>
+        
       </div>
       <!-- end pure grid group -->
 
@@ -85,14 +86,14 @@
       <script type="text/javascript">
 
         var spec2 = "js/choropleth_vg.json";
-        vegaEmbed('#choropleth_map', spec2).then(function(result) {
+        vegaEmbed('#choropleth_map', spec2, { "actions": false }).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
 
 
         var spec3 = "js/bubblechart.json";
-        vegaEmbed('#bubble_chart', spec3).then(function(result) {
+        vegaEmbed('#bubble_chart', spec3, { "actions": false }).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
       </script>
