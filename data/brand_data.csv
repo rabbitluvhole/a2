@@ -1,0 +1,889 @@
+Model,Location_State,Brand,Location
+BMW 528i,Selangor,BMW,Selangor
+Honda Civic,Kuala Lumpur,Honda,Kuala Lumpur
+BMW 328i,Kuala Lumpur,BMW,Kuala Lumpur
+Toyota Corolla Altis,Kuala Lumpur,Toyota,Kuala Lumpur
+Honda Accord,Kuala Lumpur,Honda,Kuala Lumpur
+BMW 520i,Penang,BMW,Pulau Pinang
+BMW 520i,Penang,BMW,Pulau Pinang
+Toyota Harrier,Penang,Toyota,Pulau Pinang
+BMW X1,Penang,BMW,Pulau Pinang
+BMW X4,Penang,BMW,Pulau Pinang
+Honda HR-V,Penang,Honda,Pulau Pinang
+Toyota Vellfire,Selangor,Toyota,Selangor
+Toyota Alphard,Selangor,Toyota,Selangor
+Perodua Myvi,Penang,Perodua,Pulau Pinang
+Honda CR-V,Johor,Honda,Johor
+Honda CR-V,Penang,Honda,Pulau Pinang
+Honda City,Johor,Honda,Johor
+Honda City,Penang,Honda,Pulau Pinang
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+BMW 328i,Selangor,BMW,Selangor
+Volvo XC60,Selangor,Volvo,Selangor
+Toyota Alphard,Johor,Toyota,Johor
+Honda HR-V,Kuala Lumpur,Honda,Kuala Lumpur
+Mazda CX-5,Kuala Lumpur,Mazda,Kuala Lumpur
+BMW X1,Kuala Lumpur,BMW,Kuala Lumpur
+Ford Ranger,Kuala Lumpur,Ford,Kuala Lumpur
+Toyota Alphard,Selangor,Toyota,Selangor
+Toyota Alphard,Selangor,Toyota,Selangor
+Nissan X-Trail,Selangor,Nissan,Selangor
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Penang,Toyota,Pulau Pinang
+BMW 528i,Penang,BMW,Pulau Pinang
+BMW X1,Selangor,BMW,Selangor
+Mercedes-Benz C200K,Selangor,Mercedes-Benz,Selangor
+Mercedes-Benz C200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Porsche Macan,Kuala Lumpur,Porsche,Kuala Lumpur
+Ford MUSTANG,Kuala Lumpur,Ford,Kuala Lumpur
+Porsche Cayman,Kuala Lumpur,Porsche,Kuala Lumpur
+Land Rover Range Rover Sport,Kuala Lumpur,Land,Kuala Lumpur
+Porsche Macan,Kuala Lumpur,Porsche,Kuala Lumpur
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Perodua Myvi,Selangor,Perodua,Selangor
+Honda Jazz,Selangor,Honda,Selangor
+Honda Civic,Selangor,Honda,Selangor
+Toyota Camry,Selangor,Toyota,Selangor
+Mazda CX-3,Kuala Lumpur,Mazda,Kuala Lumpur
+Suzuki Jimny,Kuala Lumpur,Suzuki,Kuala Lumpur
+Mercedes-Benz E250,Johor,Mercedes-Benz,Johor
+Mercedes-Benz E200,Johor,Mercedes-Benz,Johor
+Mercedes-Benz CLA200,Johor,Mercedes-Benz,Johor
+Honda CR-V,Kuala Lumpur,Honda,Kuala Lumpur
+BMW 330e,Kuala Lumpur,BMW,Kuala Lumpur
+Porsche Macan,Selangor,Porsche,Selangor
+BMW 330e,Penang,BMW,Pulau Pinang
+Mercedes-Benz C180,Penang,Mercedes-Benz,Pulau Pinang
+BMW X3,Penang,BMW,Pulau Pinang
+MINI Countryman,Penang,MINI,Pulau Pinang
+Lexus RX200t,Penang,Lexus,Pulau Pinang
+BMW 330e,Penang,BMW,Pulau Pinang
+MINI Clubman,Selangor,MINI,Selangor
+Mercedes-Benz CLA180,Johor,Mercedes-Benz,Johor
+Mercedes-Benz E200,Johor,Mercedes-Benz,Johor
+Mazda 6,Kuala Lumpur,Mazda,Kuala Lumpur
+Mitsubishi Triton,Kuala Lumpur,Mitsubishi,Kuala Lumpur
+Hyundai Grand Starex,Kuala Lumpur,Hyundai,Kuala Lumpur
+Toyota Vellfire,Johor,Toyota,Johor
+Toyota Alphard,Johor,Toyota,Johor
+Mercedes-Benz CLA200,Selangor,Mercedes-Benz,Selangor
+Honda CR-V,Penang,Honda,Pulau Pinang
+Mercedes-Benz G350,Selangor,Mercedes-Benz,Selangor
+Toyota Hilux,Selangor,Toyota,Selangor
+BMW 330e,Kuala Lumpur,BMW,Kuala Lumpur
+Nissan X-Trail,Kuala Lumpur,Nissan,Kuala Lumpur
+Toyota Camry,Kuala Lumpur,Toyota,Kuala Lumpur
+Kia Cerato,Kuala Lumpur,Kia,Kuala Lumpur
+Mazda 6,Kuala Lumpur,Mazda,Kuala Lumpur
+Honda City,Kuala Lumpur,Honda,Kuala Lumpur
+BMW 328i,Selangor,BMW,Selangor
+BMW X6,Selangor,BMW,Selangor
+Honda Accord,Kuala Lumpur,Honda,Kuala Lumpur
+Mazda 6,Kuala Lumpur,Mazda,Kuala Lumpur
+Toyota Harrier,Selangor,Toyota,Selangor
+Mazda 6,Kuala Lumpur,Mazda,Kuala Lumpur
+Volkswagen Tiguan,Kuala Lumpur,Volkswagen,Kuala Lumpur
+Mercedes-Benz CLA250,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Mercedes-Benz C180,Penang,Mercedes-Benz,Pulau Pinang
+BMW 330e,Penang,BMW,Pulau Pinang
+Mercedes-Benz E250,Penang,Mercedes-Benz,Pulau Pinang
+BMW X1,Penang,BMW,Pulau Pinang
+Toyota Alphard,Johor,Toyota,Johor
+Toyota Alphard,Johor,Toyota,Johor
+Toyota Land Cruiser,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Mazda CX-5,Selangor,Mazda,Selangor
+BMW X3,Selangor,BMW,Selangor
+Mercedes-Benz A180,Selangor,Mercedes-Benz,Selangor
+Mitsubishi Triton,Penang,Mitsubishi,Pulau Pinang
+Mercedes-Benz GLA200,Selangor,Mercedes-Benz,Selangor
+Mercedes-Benz C180,Selangor,Mercedes-Benz,Selangor
+Nissan X-Trail,Selangor,Nissan,Selangor
+Kia Rio,Kuala Lumpur,Kia,Kuala Lumpur
+BMW 528i,Penang,BMW,Pulau Pinang
+Mercedes-Benz C43 AMG,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+BMW 428i,Kuala Lumpur,BMW,Kuala Lumpur
+Mazda CX-5,Kuala Lumpur,Mazda,Kuala Lumpur
+Mercedes-Benz A200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+BMW 330e,Kuala Lumpur,BMW,Kuala Lumpur
+Toyota Innova,Kuala Lumpur,Toyota,Kuala Lumpur
+BMW 330e,Kuala Lumpur,BMW,Kuala Lumpur
+Mercedes-Benz C350 e,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Hyundai Grand Starex,Kuala Lumpur,Hyundai,Kuala Lumpur
+Toyota Camry,Kuala Lumpur,Toyota,Kuala Lumpur
+BMW 520i,Selangor,BMW,Selangor
+Honda City,Kuala Lumpur,Honda,Kuala Lumpur
+Honda Civic,Penang,Honda,Pulau Pinang
+Honda HR-V,Selangor,Honda,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Honda CR-V,Selangor,Honda,Selangor
+Mercedes-Benz GLA200,Selangor,Mercedes-Benz,Selangor
+Mercedes-Benz CLA250,Selangor,Mercedes-Benz,Selangor
+Mercedes-Benz C300,Selangor,Mercedes-Benz,Selangor
+Audi Q5,Kuala Lumpur,Audi,Kuala Lumpur
+Mercedes-Benz C300,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Mitsubishi Triton,Kuala Lumpur,Mitsubishi,Kuala Lumpur
+Peugeot 3008,Kuala Lumpur,Peugeot,Kuala Lumpur
+MINI Countryman,Kuala Lumpur,MINI,Kuala Lumpur
+Toyota Rush,Kuala Lumpur,Toyota,Kuala Lumpur
+Audi A4,Kuala Lumpur,Audi,Kuala Lumpur
+Toyota Prius C,Penang,Toyota,Pulau Pinang
+BMW 530i,Penang,BMW,Pulau Pinang
+BMW 318i,Penang,BMW,Pulau Pinang
+BMW X3,Penang,BMW,Pulau Pinang
+Mercedes-Benz B200,Penang,Mercedes-Benz,Pulau Pinang
+Honda HR-V,Selangor,Honda,Selangor
+Toyota Vios,Penang,Toyota,Pulau Pinang
+BMW 528i,Penang,BMW,Pulau Pinang
+Audi A4,Kuala Lumpur,Audi,Kuala Lumpur
+Mercedes-Benz E200,Johor,Mercedes-Benz,Johor
+Mercedes-Benz C350 e,Selangor,Mercedes-Benz,Selangor
+Mercedes-Benz CLA180,Selangor,Mercedes-Benz,Selangor
+BMW 330e,Penang,BMW,Pulau Pinang
+Mercedes-Benz CLA200,Penang,Mercedes-Benz,Pulau Pinang
+Mazda CX-5,Penang,Mazda,Pulau Pinang
+BMW 530i,Penang,BMW,Pulau Pinang
+Honda Accord,Penang,Honda,Pulau Pinang
+BMW X3,Penang,BMW,Pulau Pinang
+BMW 330i,Penang,BMW,Pulau Pinang
+BMW 520i,Penang,BMW,Pulau Pinang
+Mercedes-Benz C250,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Toyota Vios,Penang,Toyota,Pulau Pinang
+Kia Cerato,Kuala Lumpur,Kia,Kuala Lumpur
+Nissan Navara,Kuala Lumpur,Nissan,Kuala Lumpur
+Nissan Serena,Kuala Lumpur,Nissan,Kuala Lumpur
+Nissan Teana,Selangor,Nissan,Selangor
+BMW X6,Kuala Lumpur,BMW,Kuala Lumpur
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Audi Q7,Kuala Lumpur,Audi,Kuala Lumpur
+Audi Q7,Kuala Lumpur,Audi,Kuala Lumpur
+Honda Accord,Penang,Honda,Pulau Pinang
+Honda Civic,Selangor,Honda,Selangor
+Volkswagen Passat,Selangor,Volkswagen,Selangor
+Toyota Harrier,Selangor,Toyota,Selangor
+BMW X3,Penang,BMW,Pulau Pinang
+BMW 318i,Penang,BMW,Pulau Pinang
+Mazda CX-3,Kuala Lumpur,Mazda,Kuala Lumpur
+Volvo XC90,Selangor,Volvo,Selangor
+MINI Countryman,Penang,MINI,Pulau Pinang
+Honda Jazz,Penang,Honda,Pulau Pinang
+Honda Civic,Penang,Honda,Pulau Pinang
+Perodua AXIA,Penang,Perodua,Pulau Pinang
+MINI 3 Door,Penang,MINI,Pulau Pinang
+Honda HR-V,Penang,Honda,Pulau Pinang
+Honda Jazz,Penang,Honda,Pulau Pinang
+Toyota Corolla Altis,Penang,Toyota,Pulau Pinang
+Proton Iriz,Penang,Proton,Pulau Pinang
+Toyota Vios,Penang,Toyota,Pulau Pinang
+BMW X3,Penang,BMW,Pulau Pinang
+Honda Accord,Penang,Honda,Pulau Pinang
+Honda HR-V,Penang,Honda,Pulau Pinang
+Toyota Hilux,Penang,Toyota,Pulau Pinang
+Peugeot 408,Selangor,Peugeot,Selangor
+Honda Civic,Kuala Lumpur,Honda,Kuala Lumpur
+Nissan Serena,Selangor,Nissan,Selangor
+Mercedes-Benz E250,Selangor,Mercedes-Benz,Selangor
+BMW X1,Selangor,BMW,Selangor
+Nissan Grand Livina,Selangor,Nissan,Selangor
+BMW 320i,Selangor,BMW,Selangor
+Volvo S60,Kuala Lumpur,Volvo,Kuala Lumpur
+Mercedes-Benz A45 AMG,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Mercedes-Benz A250,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Mercedes-Benz C200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Honda City,Penang,Honda,Pulau Pinang
+Ford Ranger,Selangor,Ford,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+Mitsubishi Triton,Selangor,Mitsubishi,Selangor
+Volkswagen Golf,Selangor,Volkswagen,Selangor
+Mazda CX-5,Penang,Mazda,Pulau Pinang
+Subaru Forester,Selangor,Subaru,Selangor
+Subaru XV,Penang,Subaru,Pulau Pinang
+Honda CR-V,Penang,Honda,Pulau Pinang
+Honda CR-V,Penang,Honda,Pulau Pinang
+Perodua Myvi,Penang,Perodua,Pulau Pinang
+Mercedes-Benz GLA250,Penang,Mercedes-Benz,Pulau Pinang
+Kia Cerato,Kuala Lumpur,Kia,Kuala Lumpur
+BMW X5,Johor,BMW,Johor
+Mercedes-Benz GLA200,Penang,Mercedes-Benz,Pulau Pinang
+Peugeot 5008,Kuala Lumpur,Peugeot,Kuala Lumpur
+Nissan Serena,Kuala Lumpur,Nissan,Kuala Lumpur
+BMW X5,Kuala Lumpur,BMW,Kuala Lumpur
+Kia Cerato,Kuala Lumpur,Kia,Kuala Lumpur
+Volkswagen Jetta,Kuala Lumpur,Volkswagen,Kuala Lumpur
+Mercedes-Benz C350 e,Penang,Mercedes-Benz,Pulau Pinang
+Peugeot 3008,Selangor,Peugeot,Selangor
+Kia Rio,Selangor,Kia,Selangor
+Subaru XV,Kuala Lumpur,Subaru,Kuala Lumpur
+Mazda 6,Selangor,Mazda,Selangor
+Mazda 6,Selangor,Mazda,Selangor
+Mitsubishi ASX,Selangor,Mitsubishi,Selangor
+Mazda 6,Selangor,Mazda,Selangor
+Honda Civic,Penang,Honda,Pulau Pinang
+Perodua AXIA,Selangor,Perodua,Selangor
+Toyota Hilux,Selangor,Toyota,Selangor
+Honda City,Selangor,Honda,Selangor
+Proton Saga,Selangor,Proton,Selangor
+Perodua Alza,Penang,Perodua,Pulau Pinang
+Mazda 6,Selangor,Mazda,Selangor
+Toyota Vellfire,Johor,Toyota,Johor
+Land Rover Range Rover Evoque,Johor,Land,Johor
+BMW 520i,Johor,BMW,Johor
+BMW 530i,Selangor,BMW,Selangor
+Subaru XV,Kuala Lumpur,Subaru,Kuala Lumpur
+Toyota Vellfire,Selangor,Toyota,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+Mercedes-Benz C200,Selangor,Mercedes-Benz,Selangor
+Honda Civic,Kuala Lumpur,Honda,Kuala Lumpur
+Honda HR-V,Penang,Honda,Pulau Pinang
+Volkswagen Jetta,Penang,Volkswagen,Pulau Pinang
+Mazda 2,Penang,Mazda,Pulau Pinang
+Mazda CX-5,Penang,Mazda,Pulau Pinang
+Perodua Bezza,Penang,Perodua,Pulau Pinang
+Nissan Sylphy,Penang,Nissan,Pulau Pinang
+Honda CR-V,Penang,Honda,Pulau Pinang
+Proton X70,Penang,Proton,Pulau Pinang
+Mazda CX-3,Selangor,Mazda,Selangor
+MINI 3 Door,Selangor,MINI,Selangor
+Honda Jazz,Selangor,Honda,Selangor
+Honda Civic,Selangor,Honda,Selangor
+Nissan Almera,Selangor,Nissan,Selangor
+Lexus IS250,Selangor,Lexus,Selangor
+Perodua Alza,Selangor,Perodua,Selangor
+Proton Preve,Selangor,Proton,Selangor
+Honda Accord,Selangor,Honda,Selangor
+Honda City,Selangor,Honda,Selangor
+Proton Saga,Selangor,Proton,Selangor
+BMW X1,Johor,BMW,Johor
+BMW 530i,Johor,BMW,Johor
+Volkswagen Tiguan,Johor,Volkswagen,Johor
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Kia Cerato,Kuala Lumpur,Kia,Kuala Lumpur
+Mazda 6,Kuala Lumpur,Mazda,Kuala Lumpur
+Volkswagen Beetle,Kuala Lumpur,Volkswagen,Kuala Lumpur
+Volkswagen Beetle,Kuala Lumpur,Volkswagen,Kuala Lumpur
+Mercedes-Benz C200,Selangor,Mercedes-Benz,Selangor
+Haval H2,Selangor,Haval,Selangor
+Land Rover Range Rover Sport,Kuala Lumpur,Land,Kuala Lumpur
+Mercedes-Benz GLA200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Lexus RX200t,Selangor,Lexus,Selangor
+Ford MUSTANG,Kuala Lumpur,Ford,Kuala Lumpur
+Toyota Vellfire,Selangor,Toyota,Selangor
+Toyota Camry,Kuala Lumpur,Toyota,Kuala Lumpur
+Volkswagen Tiguan,Kuala Lumpur,Volkswagen,Kuala Lumpur
+Kia Cerato,Kuala Lumpur,Kia,Kuala Lumpur
+Mercedes-Benz A250,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Perodua Myvi,Kuala Lumpur,Perodua,Kuala Lumpur
+Mercedes-Benz A250,Selangor,Mercedes-Benz,Selangor
+Mazda 2,Penang,Mazda,Pulau Pinang
+Proton Perdana,Penang,Proton,Pulau Pinang
+Volkswagen Jetta,Penang,Volkswagen,Pulau Pinang
+MINI Clubman,Selangor,MINI,Selangor
+Mercedes-Benz C350 e,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Audi Q3,Selangor,Audi,Selangor
+Mercedes-Benz A45 AMG,Selangor,Mercedes-Benz,Selangor
+Proton Saga,Selangor,Proton,Selangor
+Proton Saga,Selangor,Proton,Selangor
+Honda City,Selangor,Honda,Selangor
+Perodua Myvi,Selangor,Perodua,Selangor
+Honda Accord,Penang,Honda,Pulau Pinang
+Toyota Vios,Selangor,Toyota,Selangor
+Land Rover Range Rover Sport,Selangor,Land,Selangor
+Kia Sportage,Selangor,Kia,Selangor
+Kia Optima K5,Selangor,Kia,Selangor
+Hyundai Tucson,Selangor,Hyundai,Selangor
+Volkswagen Golf,Selangor,Volkswagen,Selangor
+BMW 320i,Johor,BMW,Johor
+Honda Civic,Johor,Honda,Johor
+Honda Civic,Johor,Honda,Johor
+Mercedes-Benz A200,Johor,Mercedes-Benz,Johor
+Proton Perdana,Kuala Lumpur,Proton,Kuala Lumpur
+Mitsubishi Triton,Kuala Lumpur,Mitsubishi,Kuala Lumpur
+Honda Accord,Kuala Lumpur,Honda,Kuala Lumpur
+Volkswagen Passat,Kuala Lumpur,Volkswagen,Kuala Lumpur
+Mercedes-Benz C200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Honda City,Kuala Lumpur,Honda,Kuala Lumpur
+Peugeot 208,Penang,Peugeot,Pulau Pinang
+BMW X1,Penang,BMW,Pulau Pinang
+Honda Jazz,Penang,Honda,Pulau Pinang
+MINI Countryman,Penang,MINI,Pulau Pinang
+Audi Q5,Selangor,Audi,Selangor
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Mitsubishi ASX,Selangor,Mitsubishi,Selangor
+Mercedes-Benz E300,Johor,Mercedes-Benz,Johor
+Hyundai Sonata,Selangor,Hyundai,Selangor
+Proton X70,Selangor,Proton,Selangor
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Audi Q7,Kuala Lumpur,Audi,Kuala Lumpur
+Mazda 3,Penang,Mazda,Pulau Pinang
+Honda HR-V,Penang,Honda,Pulau Pinang
+Mercedes-Benz CLA200,Penang,Mercedes-Benz,Pulau Pinang
+Toyota Vios,Penang,Toyota,Pulau Pinang
+Honda City,Penang,Honda,Pulau Pinang
+Mazda CX-5,Selangor,Mazda,Selangor
+Toyota Harrier,Selangor,Toyota,Selangor
+BMW 330e,Penang,BMW,Pulau Pinang
+Honda Jazz,Penang,Honda,Pulau Pinang
+Honda Jazz,Selangor,Honda,Selangor
+Toyota Vios,Selangor,Toyota,Selangor
+Nissan X-Trail,Selangor,Nissan,Selangor
+Mercedes-Benz E250,Penang,Mercedes-Benz,Pulau Pinang
+Toyota Alphard,Penang,Toyota,Pulau Pinang
+Honda Civic,Penang,Honda,Pulau Pinang
+BMW X5,Johor,BMW,Johor
+Peugeot 3008,Kuala Lumpur,Peugeot,Kuala Lumpur
+BMW 320i,Penang,BMW,Pulau Pinang
+Mazda CX-3,Johor,Mazda,Johor
+BMW 330e,Johor,BMW,Johor
+Nissan Navara,Kuala Lumpur,Nissan,Kuala Lumpur
+BMW X6,Kuala Lumpur,BMW,Kuala Lumpur
+BMW 530e,Johor,BMW,Johor
+Mitsubishi Triton,Kuala Lumpur,Mitsubishi,Kuala Lumpur
+BMW 328i,Kuala Lumpur,BMW,Kuala Lumpur
+Honda City,Kuala Lumpur,Honda,Kuala Lumpur
+Mitsubishi Triton,Penang,Mitsubishi,Pulau Pinang
+Honda City,Kuala Lumpur,Honda,Kuala Lumpur
+Honda City,Selangor,Honda,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Mazda 6,Melaka,Mazda,Melaka
+Porsche Macan,Selangor,Porsche,Selangor
+Mercedes-Benz C180,Penang,Mercedes-Benz,Pulau Pinang
+Toyota Harrier,Selangor,Toyota,Selangor
+Lexus ES250,Selangor,Lexus,Selangor
+Nissan Navara,Selangor,Nissan,Selangor
+Nissan Navara,Selangor,Nissan,Selangor
+Toyota Vellfire,Penang,Toyota,Pulau Pinang
+Lexus RX350,Selangor,Lexus,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Nissan Serena,Kuala Lumpur,Nissan,Kuala Lumpur
+Audi A3,Johor,Audi,Johor
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Mazda 6,Kuala Lumpur,Mazda,Kuala Lumpur
+Mazda 6,Johor,Mazda,Johor
+Toyota Sienta,Selangor,Toyota,Selangor
+Honda City,Selangor,Honda,Selangor
+Audi A3,Selangor,Audi,Selangor
+Ford Ranger,Selangor,Ford,Selangor
+Ford Ranger,Selangor,Ford,Selangor
+Peugeot 3008,Selangor,Peugeot,Selangor
+Toyota Harrier,Selangor,Toyota,Selangor
+Nissan Navara,Selangor,Nissan,Selangor
+Honda Accord,Penang,Honda,Pulau Pinang
+Mercedes-Benz E200,Penang,Mercedes-Benz,Pulau Pinang
+Audi A6,Selangor,Audi,Selangor
+BMW 320i,Selangor,BMW,Selangor
+Nissan Serena,Selangor,Nissan,Selangor
+Honda HR-V,Kuala Lumpur,Honda,Kuala Lumpur
+Mercedes-Benz A200,Selangor,Mercedes-Benz,Selangor
+Audi A7,Perak,Audi,Perak
+Toyota Vellfire,Selangor,Toyota,Selangor
+Kia Sportage,Penang,Kia,Pulau Pinang
+Perodua AXIA,Penang,Perodua,Pulau Pinang
+Honda City,Penang,Honda,Pulau Pinang
+Perodua Myvi,Penang,Perodua,Pulau Pinang
+BMW X1,Penang,BMW,Pulau Pinang
+Toyota Alphard,Selangor,Toyota,Selangor
+Toyota Rush,Kuala Lumpur,Toyota,Kuala Lumpur
+Honda Civic,Kuala Lumpur,Honda,Kuala Lumpur
+Mazda CX-5,Selangor,Mazda,Selangor
+Toyota Hilux,Kuala Lumpur,Toyota,Kuala Lumpur
+Volkswagen Tiguan,Kuala Lumpur,Volkswagen,Kuala Lumpur
+Proton Iriz,Kuala Lumpur,Proton,Kuala Lumpur
+Perodua AXIA,Kuala Lumpur,Perodua,Kuala Lumpur
+Toyota Fortuner,Selangor,Toyota,Selangor
+Nissan Serena,Kuala Lumpur,Nissan,Kuala Lumpur
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Land Rover Range Rover Sport,Kuala Lumpur,Land,Kuala Lumpur
+Isuzu D-Max,Penang,Isuzu,Pulau Pinang
+Volkswagen Beetle,Penang,Volkswagen,Pulau Pinang
+Honda Accord,Johor,Honda,Johor
+Nissan Teana,Penang,Nissan,Pulau Pinang
+Mercedes-Benz C200,Johor,Mercedes-Benz,Johor
+Toyota Harrier,Selangor,Toyota,Selangor
+Mercedes-Benz C200,Penang,Mercedes-Benz,Pulau Pinang
+Honda HR-V,Penang,Honda,Pulau Pinang
+Land Rover Range Rover Evoque,Penang,Land,Pulau Pinang
+BMW X4,Selangor,BMW,Selangor
+Perodua Alza,Penang,Perodua,Pulau Pinang
+Perodua Myvi,Penang,Perodua,Pulau Pinang
+Honda Accord,Penang,Honda,Pulau Pinang
+Ford MUSTANG,Selangor,Ford,Selangor
+Mercedes-Benz C200,Johor,Mercedes-Benz,Johor
+Suzuki Grand Vitara,Kuala Lumpur,Suzuki,Kuala Lumpur
+Toyota Sienta,Penang,Toyota,Pulau Pinang
+Lexus CT200h,Kuala Lumpur,Lexus,Kuala Lumpur
+Perodua Myvi,Penang,Perodua,Pulau Pinang
+Lexus NX200t,Penang,Lexus,Pulau Pinang
+Kia Rio,Penang,Kia,Pulau Pinang
+Honda HR-V,Penang,Honda,Pulau Pinang
+BMW 330i,Selangor,BMW,Selangor
+Mitsubishi Triton,Selangor,Mitsubishi,Selangor
+Lexus RX350,Selangor,Lexus,Selangor
+Volvo XC60,Selangor,Volvo,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+BMW X3,Kuala Lumpur,BMW,Kuala Lumpur
+Honda City,Selangor,Honda,Selangor
+Perodua Myvi,Kuala Lumpur,Perodua,Kuala Lumpur
+BMW 318i,Kuala Lumpur,BMW,Kuala Lumpur
+Peugeot 2008,Kuala Lumpur,Peugeot,Kuala Lumpur
+Mazda CX-5,Kuala Lumpur,Mazda,Kuala Lumpur
+Mercedes-Benz E250,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Mercedes-Benz C200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Perodua AXIA,Selangor,Perodua,Selangor
+Proton Saga,Selangor,Proton,Selangor
+Proton Inspira,Kuala Lumpur,Proton,Kuala Lumpur
+Honda CR-V,Selangor,Honda,Selangor
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Hyundai Sonata,Kuala Lumpur,Hyundai,Kuala Lumpur
+Mercedes-Benz E300,Selangor,Mercedes-Benz,Selangor
+Perodua Alza,Selangor,Perodua,Selangor
+BMW 528i,Johor,BMW,Johor
+Kia Cerato,Johor,Kia,Johor
+Honda CR-V,Johor,Honda,Johor
+Honda CR-V,Johor,Honda,Johor
+BMW 330e,Johor,BMW,Johor
+Volkswagen Passat,Johor,Volkswagen,Johor
+Hyundai Tucson,Johor,Hyundai,Johor
+Subaru Forester,Johor,Subaru,Johor
+Mercedes-Benz A250,Selangor,Mercedes-Benz,Selangor
+Proton X70,Kuala Lumpur,Proton,Kuala Lumpur
+Isuzu D-Max,Kuala Lumpur,Isuzu,Kuala Lumpur
+Kia Sportage,Kuala Lumpur,Kia,Kuala Lumpur
+BMW 320i,Selangor,BMW,Selangor
+Mercedes-Benz E300,Johor,Mercedes-Benz,Johor
+Toyota Innova,Johor,Toyota,Johor
+Volkswagen Beetle,Perak,Volkswagen,Perak
+Honda HR-V,Kuala Lumpur,Honda,Kuala Lumpur
+BMW X3,Kuala Lumpur,BMW,Kuala Lumpur
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Mazda CX-3,Selangor,Mazda,Selangor
+Honda City,Selangor,Honda,Selangor
+Mazda 3,Selangor,Mazda,Selangor
+MINI 3 Door,Johor,MINI,Johor
+Mazda CX-5,Kuala Lumpur,Mazda,Kuala Lumpur
+Perodua Alza,Selangor,Perodua,Selangor
+Honda CR-V,Selangor,Honda,Selangor
+Proton X70,Penang,Proton,Pulau Pinang
+Volkswagen Jetta,Selangor,Volkswagen,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+Mercedes-Benz E250,Penang,Mercedes-Benz,Pulau Pinang
+Toyota Vellfire,Penang,Toyota,Pulau Pinang
+Mercedes-Benz CLA250,Penang,Mercedes-Benz,Pulau Pinang
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Volkswagen Golf,Selangor,Volkswagen,Selangor
+Kia Cerato,Johor,Kia,Johor
+Ford Ranger,Penang,Ford,Pulau Pinang
+Ford Ranger,Penang,Ford,Pulau Pinang
+Mazda BT-50,Selangor,Mazda,Selangor
+Nissan Navara,Selangor,Nissan,Selangor
+Nissan Serena,Selangor,Nissan,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Mercedes-Benz E300,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+BMW 520i,Johor,BMW,Johor
+Honda Civic,Kuala Lumpur,Honda,Kuala Lumpur
+Mazda Biante,Selangor,Mazda,Selangor
+Audi A5,Selangor,Audi,Selangor
+Toyota Corolla Altis,Kedah,Toyota,Kedah
+Honda HR-V,Kedah,Honda,Kedah
+Kia Rio,Selangor,Kia,Selangor
+Perodua AXIA,Selangor,Perodua,Selangor
+Honda CR-V,Selangor,Honda,Selangor
+Honda City,Kuala Lumpur,Honda,Kuala Lumpur
+Honda HR-V,Penang,Honda,Pulau Pinang
+Honda CR-V,Selangor,Honda,Selangor
+Mazda CX-3,Johor,Mazda,Johor
+Subaru XV,Johor,Subaru,Johor
+BMW 318i,Johor,BMW,Johor
+Subaru XV,Johor,Subaru,Johor
+Ford Ranger,Kuala Lumpur,Ford,Kuala Lumpur
+Peugeot 208,Selangor,Peugeot,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+Toyota Corolla Altis,Kuala Lumpur,Toyota,Kuala Lumpur
+Honda Accord,Kuala Lumpur,Honda,Kuala Lumpur
+Honda Accord,Selangor,Honda,Selangor
+Nissan Navara,Kuala Lumpur,Nissan,Kuala Lumpur
+Kia Cerato,Selangor,Kia,Selangor
+Mitsubishi ASX,Selangor,Mitsubishi,Selangor
+MINI 3 Door,Selangor,MINI,Selangor
+Honda HR-V,Selangor,Honda,Selangor
+Ford MUSTANG,Kuala Lumpur,Ford,Kuala Lumpur
+Peugeot 508,Johor,Peugeot,Johor
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Subaru XV,Kuala Lumpur,Subaru,Kuala Lumpur
+Kia Cerato,Kuala Lumpur,Kia,Kuala Lumpur
+Honda Jazz,Selangor,Honda,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Kia Carnival,Penang,Kia,Pulau Pinang
+Toyota Innova,Kuala Lumpur,Toyota,Kuala Lumpur
+Mercedes-Benz C200,Selangor,Mercedes-Benz,Selangor
+Lexus ES250,Selangor,Lexus,Selangor
+Toyota Harrier,Johor,Toyota,Johor
+Mercedes-Benz E200,Johor,Mercedes-Benz,Johor
+Honda City,Johor,Honda,Johor
+Hyundai Tucson,Johor,Hyundai,Johor
+Honda Accord,Johor,Honda,Johor
+Perodua Aruz,Johor,Perodua,Johor
+Nissan Navara,Johor,Nissan,Johor
+Honda BR-V,Johor,Honda,Johor
+Volkswagen Beetle,Selangor,Volkswagen,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+BMW 520i,Penang,BMW,Pulau Pinang
+Land Rover Range Rover Sport,Kuala Lumpur,Land,Kuala Lumpur
+Nissan Almera,Johor,Nissan,Johor
+Volkswagen Beetle,Johor,Volkswagen,Johor
+Mazda CX-5,Johor,Mazda,Johor
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Honda CR-V,Selangor,Honda,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Honda Civic,Johor,Honda,Johor
+Mercedes-Benz C200,Johor,Mercedes-Benz,Johor
+Honda Civic,Penang,Honda,Pulau Pinang
+Honda Jazz,Selangor,Honda,Selangor
+Perodua Myvi,Johor,Perodua,Johor
+Honda Odyssey,Selangor,Honda,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Toyota Camry,Johor,Toyota,Johor
+Volkswagen Passat,Johor,Volkswagen,Johor
+Lexus NX300,Kuala Lumpur,Lexus,Kuala Lumpur
+Honda CR-V,Selangor,Honda,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Volkswagen Beetle,Johor,Volkswagen,Johor
+Volkswagen Beetle,Johor,Volkswagen,Johor
+Volkswagen Golf,Penang,Volkswagen,Pulau Pinang
+Nissan Teana,Selangor,Nissan,Selangor
+Toyota Vios,Selangor,Toyota,Selangor
+Perodua AXIA,Selangor,Perodua,Selangor
+BMW 118i,Selangor,BMW,Selangor
+Honda BR-V,Kuala Lumpur,Honda,Kuala Lumpur
+Honda CR-V,Selangor,Honda,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Honda Jazz,Selangor,Honda,Selangor
+Volkswagen Golf,Perak,Volkswagen,Perak
+Perodua Alza,Kuala Lumpur,Perodua,Kuala Lumpur
+Volkswagen Beetle,Penang,Volkswagen,Pulau Pinang
+Nissan X-Trail,Kuala Lumpur,Nissan,Kuala Lumpur
+Toyota Corolla Altis,Selangor,Toyota,Selangor
+Lexus NX300,Kuala Lumpur,Lexus,Kuala Lumpur
+Mitsubishi Outlander,Johor,Mitsubishi,Johor
+Nissan Grand Livina,Johor,Nissan,Johor
+Proton X70,Johor,Proton,Johor
+Honda CR-V,Selangor,Honda,Selangor
+Perodua Myvi,Selangor,Perodua,Selangor
+Peugeot 2008,Kuala Lumpur,Peugeot,Kuala Lumpur
+Kia Sorento,Johor,Kia,Johor
+Toyota Hilux,Selangor,Toyota,Selangor
+Mercedes-Benz A250,Selangor,Mercedes-Benz,Selangor
+Porsche 718,Kuala Lumpur,Porsche,Kuala Lumpur
+BMW X1,Selangor,BMW,Selangor
+Perodua Bezza,Kuala Lumpur,Perodua,Kuala Lumpur
+Porsche Macan,Kuala Lumpur,Porsche,Kuala Lumpur
+Toyota Land Cruiser Prado,Selangor,Toyota,Selangor
+Subaru Forester,Johor,Subaru,Johor
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Mercedes-Benz GLA250,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Mercedes-Benz GLC300,Selangor,Mercedes-Benz,Selangor
+Volkswagen Polo,Selangor,Volkswagen,Selangor
+Volkswagen Jetta,Johor,Volkswagen,Johor
+Audi A3,Johor,Audi,Johor
+Volvo V40,Johor,Volvo,Johor
+Honda HR-V,Selangor,Honda,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+Porsche 718,Selangor,Porsche,Selangor
+Perodua AXIA,Selangor,Perodua,Selangor
+Mazda CX-5,Kuala Lumpur,Mazda,Kuala Lumpur
+Kia Sportage,Kuala Lumpur,Kia,Kuala Lumpur
+BMW 730Li,Kuala Lumpur,BMW,Kuala Lumpur
+Honda City,Selangor,Honda,Selangor
+Honda Jazz,Selangor,Honda,Selangor
+Lexus RX200t,Kuala Lumpur,Lexus,Kuala Lumpur
+Mercedes-Benz E250,Selangor,Mercedes-Benz,Selangor
+Mercedes-Benz A250,Selangor,Mercedes-Benz,Selangor
+Mazda 2,Selangor,Mazda,Selangor
+Honda City,Selangor,Honda,Selangor
+Toyota Vios,Selangor,Toyota,Selangor
+Honda City,Selangor,Honda,Selangor
+Toyota Vios,Selangor,Toyota,Selangor
+Toyota Land Cruiser,Selangor,Toyota,Selangor
+Honda City,Johor,Honda,Johor
+Subaru XV,Kuala Lumpur,Subaru,Kuala Lumpur
+MINI Countryman,Selangor,MINI,Selangor
+Perodua Myvi,Penang,Perodua,Pulau Pinang
+Subaru XV,Johor,Subaru,Johor
+Hyundai Elantra,Selangor,Hyundai,Selangor
+Nissan X-Trail,Selangor,Nissan,Selangor
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Honda CR-V,Selangor,Honda,Selangor
+Mercedes-Benz C250,Penang,Mercedes-Benz,Pulau Pinang
+Hyundai Ioniq,Johor,Hyundai,Johor
+Ford MUSTANG,Penang,Ford,Pulau Pinang
+BMW 520i,Penang,BMW,Pulau Pinang
+Perodua Myvi,Selangor,Perodua,Selangor
+Mercedes-Benz CLA200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Honda Accord,Selangor,Honda,Selangor
+BMW 520i,Johor,BMW,Johor
+Land Rover Range Rover Evoque,Selangor,Land,Selangor
+Toyota Harrier,Selangor,Toyota,Selangor
+Honda Civic,Selangor,Honda,Selangor
+Nissan Almera,Penang,Nissan,Pulau Pinang
+Perodua Alza,Penang,Perodua,Pulau Pinang
+Toyota Vios,Selangor,Toyota,Selangor
+Mitsubishi Triton,Selangor,Mitsubishi,Selangor
+Ford Ranger,Kuala Lumpur,Ford,Kuala Lumpur
+Toyota Harrier,Kuala Lumpur,Toyota,Kuala Lumpur
+Honda Jazz,Johor,Honda,Johor
+Honda CR-V,Selangor,Honda,Selangor
+Mercedes-Benz GLA250,Selangor,Mercedes-Benz,Selangor
+Ford MUSTANG,Selangor,Ford,Selangor
+Toyota Vios,Selangor,Toyota,Selangor
+Ford Ranger,Selangor,Ford,Selangor
+Hyundai Sonata,Kuala Lumpur,Hyundai,Kuala Lumpur
+Porsche Boxster,Penang,Porsche,Pulau Pinang
+Proton Iriz,Kuala Lumpur,Proton,Kuala Lumpur
+BMW 428i,Selangor,BMW,Selangor
+Honda HR-V,Selangor,Honda,Selangor
+BMW X1,Kuala Lumpur,BMW,Kuala Lumpur
+Perodua Myvi,Selangor,Perodua,Selangor
+BMW X3,Selangor,BMW,Selangor
+Volkswagen Beetle,Selangor,Volkswagen,Selangor
+Toyota Estima,Johor,Toyota,Johor
+BMW 320i,Selangor,BMW,Selangor
+Mercedes-Benz C200,Selangor,Mercedes-Benz,Selangor
+Toyota Estima,Johor,Toyota,Johor
+Toyota Estima,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Selangor,Toyota,Selangor
+Perodua Myvi,Selangor,Perodua,Selangor
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Honda Civic,Selangor,Honda,Selangor
+Proton X70,Selangor,Proton,Selangor
+Perodua AXIA,Selangor,Perodua,Selangor
+Perodua Myvi,Selangor,Perodua,Selangor
+Mercedes-Benz GLA250,Selangor,Mercedes-Benz,Selangor
+Honda Jazz,Selangor,Honda,Selangor
+Mercedes-Benz GLA200,Selangor,Mercedes-Benz,Selangor
+Honda Jazz,Kuala Lumpur,Honda,Kuala Lumpur
+Nissan Navara,Kuala Lumpur,Nissan,Kuala Lumpur
+Mercedes-Benz GLC250,Selangor,Mercedes-Benz,Selangor
+Porsche Macan,Kuala Lumpur,Porsche,Kuala Lumpur
+Perodua Myvi,Selangor,Perodua,Selangor
+Mercedes-Benz A250,Penang,Mercedes-Benz,Pulau Pinang
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Mazda CX-5,Selangor,Mazda,Selangor
+Ford MUSTANG,Kuala Lumpur,Ford,Kuala Lumpur
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Volkswagen Jetta,Johor,Volkswagen,Johor
+Volkswagen Beetle,Johor,Volkswagen,Johor
+Toyota Alphard,Johor,Toyota,Johor
+Nissan Navara,Kuala Lumpur,Nissan,Kuala Lumpur
+Honda CR-V,Selangor,Honda,Selangor
+Toyota Harrier,Selangor,Toyota,Selangor
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota FJ Cruiser,Selangor,Toyota,Selangor
+Subaru XV,Kuala Lumpur,Subaru,Kuala Lumpur
+Lexus NX300,Selangor,Lexus,Selangor
+Toyota Alphard,Selangor,Toyota,Selangor
+Volkswagen Vento,Penang,Volkswagen,Pulau Pinang
+MINI Countryman,Kuala Lumpur,MINI,Kuala Lumpur
+Toyota Vellfire,Selangor,Toyota,Selangor
+Toyota Land Cruiser Prado,Selangor,Toyota,Selangor
+Ford MUSTANG,Kuala Lumpur,Ford,Kuala Lumpur
+Volkswagen Tiguan,Johor,Volkswagen,Johor
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Peugeot 308,Penang,Peugeot,Pulau Pinang
+Honda City,Kuala Lumpur,Honda,Kuala Lumpur
+Honda CR-V,Selangor,Honda,Selangor
+BMW 528i,Selangor,BMW,Selangor
+Proton Exora,Selangor,Proton,Selangor
+Ford MUSTANG,Kuala Lumpur,Ford,Kuala Lumpur
+Proton Perdana,Selangor,Proton,Selangor
+Perodua Myvi,Selangor,Perodua,Selangor
+Audi A3,Selangor,Audi,Selangor
+Mercedes-Benz A180,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+BMW 528i,Penang,BMW,Pulau Pinang
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Toyota Alphard,Kuala Lumpur,Toyota,Kuala Lumpur
+Mercedes-Benz C250,Penang,Mercedes-Benz,Pulau Pinang
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Toyota Land Cruiser,Kuala Lumpur,Toyota,Kuala Lumpur
+Mitsubishi Triton,Selangor,Mitsubishi,Selangor
+Toyota Vellfire,Selangor,Toyota,Selangor
+Hyundai Grand Starex,Johor,Hyundai,Johor
+Hyundai Grand Starex,Johor,Hyundai,Johor
+BMW X5,Kuala Lumpur,BMW,Kuala Lumpur
+Volkswagen Jetta,Johor,Volkswagen,Johor
+Volkswagen Polo,Selangor,Volkswagen,Selangor
+Mazda 8,Johor,Mazda,Johor
+BMW 316i,Johor,BMW,Johor
+Hyundai Ioniq,Johor,Hyundai,Johor
+Volkswagen Jetta,Johor,Volkswagen,Johor
+Hyundai Elantra,Johor,Hyundai,Johor
+Volkswagen Tiguan,Johor,Volkswagen,Johor
+Peugeot 2008,Johor,Peugeot,Johor
+Volkswagen Passat,Johor,Volkswagen,Johor
+Volkswagen Vento,Johor,Volkswagen,Johor
+Peugeot 3008,Johor,Peugeot,Johor
+Toyota Camry,Johor,Toyota,Johor
+Mitsubishi Triton,Johor,Mitsubishi,Johor
+Honda City,Johor,Honda,Johor
+Honda City,Johor,Honda,Johor
+Mitsubishi Triton,Johor,Mitsubishi,Johor
+Peugeot 3008,Johor,Peugeot,Johor
+Honda Civic,Johor,Honda,Johor
+Honda City,Johor,Honda,Johor
+Proton Preve,Johor,Proton,Johor
+Honda CR-V,Selangor,Honda,Selangor
+Honda CR-V,Selangor,Honda,Selangor
+Volkswagen Jetta,Johor,Volkswagen,Johor
+Volkswagen Jetta,Johor,Volkswagen,Johor
+Mazda 3,Johor,Mazda,Johor
+Mazda Biante,Johor,Mazda,Johor
+Mazda 6,Johor,Mazda,Johor
+Volkswagen Vento,Johor,Volkswagen,Johor
+Peugeot 3008,Johor,Peugeot,Johor
+Hyundai Grand Starex,Johor,Hyundai,Johor
+Toyota Camry,Penang,Toyota,Pulau Pinang
+Honda BR-V,Johor,Honda,Johor
+Mazda 3,Johor,Mazda,Johor
+Mazda CX-5,Johor,Mazda,Johor
+Mercedes-Benz E250,Johor,Mercedes-Benz,Johor
+Honda City,Johor,Honda,Johor
+Honda BR-V,Johor,Honda,Johor
+Toyota Alphard,Selangor,Toyota,Selangor
+Lexus NX300,Selangor,Lexus,Selangor
+BMW X1,Johor,BMW,Johor
+Ford Ranger,Johor,Ford,Johor
+Toyota Corolla Altis,Johor,Toyota,Johor
+Audi A3,Johor,Audi,Johor
+Hyundai Grand Starex,Johor,Hyundai,Johor
+Toyota Camry,Johor,Toyota,Johor
+Toyota Vios,Johor,Toyota,Johor
+Mazda 6,Johor,Mazda,Johor
+Mazda 3,Johor,Mazda,Johor
+Volkswagen Jetta,Johor,Volkswagen,Johor
+Hyundai Grand Starex,Johor,Hyundai,Johor
+Mercedes-Benz C200,Johor,Mercedes-Benz,Johor
+Nissan X-Trail,Selangor,Nissan,Selangor
+Honda Civic,Kuala Lumpur,Honda,Kuala Lumpur
+Proton X70,Johor,Proton,Johor
+Honda City,Johor,Honda,Johor
+Nissan Sylphy,Johor,Nissan,Johor
+Honda Civic,Selangor,Honda,Selangor
+Honda City,Johor,Honda,Johor
+Perodua Alza,Johor,Perodua,Johor
+Honda CR-V,Johor,Honda,Johor
+Mazda CX-5,Johor,Mazda,Johor
+Hyundai Sonata,Johor,Hyundai,Johor
+Mazda CX-5,Johor,Mazda,Johor
+Mazda CX-5,Johor,Mazda,Johor
+Proton Exora,Johor,Proton,Johor
+BMW X1,Johor,BMW,Johor
+Proton Saga,Johor,Proton,Johor
+Proton Iriz,Johor,Proton,Johor
+Toyota Camry,Johor,Toyota,Johor
+Nissan Serena,Johor,Nissan,Johor
+Perodua Myvi,Selangor,Perodua,Selangor
+Volkswagen Tiguan,Selangor,Volkswagen,Selangor
+Mazda CX-5,Selangor,Mazda,Selangor
+Volvo XC60,Selangor,Volvo,Selangor
+Ford Kuga,Selangor,Ford,Selangor
+Volvo V40,Selangor,Volvo,Selangor
+Audi Q3,Selangor,Audi,Selangor
+Proton Exora,Johor,Proton,Johor
+Kia Sorento,Johor,Kia,Johor
+Honda BR-V,Johor,Honda,Johor
+Mazda CX-5,Johor,Mazda,Johor
+Proton Iriz,Johor,Proton,Johor
+Volkswagen Passat,Johor,Volkswagen,Johor
+Proton X70,Johor,Proton,Johor
+Proton Ertiga,Johor,Proton,Johor
+Nissan Navara,Johor,Nissan,Johor
+Proton Perdana,Johor,Proton,Johor
+Audi A3,Johor,Audi,Johor
+Nissan Teana,Johor,Nissan,Johor
+Hyundai Elantra,Selangor,Hyundai,Selangor
+Haval H1,Selangor,Haval,Selangor
+Proton Preve,Johor,Proton,Johor
+Mazda 3,Johor,Mazda,Johor
+Honda Accord,Johor,Honda,Johor
+Volvo V40,Johor,Volvo,Johor
+Hyundai Grand Starex,Johor,Hyundai,Johor
+Kia Sportage,Johor,Kia,Johor
+Peugeot 508,Johor,Peugeot,Johor
+Peugeot 508,Johor,Peugeot,Johor
+Honda CR-V,Johor,Honda,Johor
+Kia Cerato,Johor,Kia,Johor
+Nissan X-Trail,Johor,Nissan,Johor
+Mazda 6,Johor,Mazda,Johor
+Honda BR-V,Johor,Honda,Johor
+Toyota Vios,Selangor,Toyota,Selangor
+Mazda CX-5,Johor,Mazda,Johor
+Proton Perdana,Johor,Proton,Johor
+Toyota Camry,Johor,Toyota,Johor
+Volkswagen Passat,Johor,Volkswagen,Johor
+Hyundai Elantra,Johor,Hyundai,Johor
+Perodua Bezza,Johor,Perodua,Johor
+Toyota Alphard,Selangor,Toyota,Selangor
+Mazda 6,Selangor,Mazda,Selangor
+Mazda Biante,Johor,Mazda,Johor
+Peugeot 208,Johor,Peugeot,Johor
+Honda Accord,Johor,Honda,Johor
+Mazda CX-5,Selangor,Mazda,Selangor
+Toyota Vellfire,Kuala Lumpur,Toyota,Kuala Lumpur
+Volkswagen Passat,Johor,Volkswagen,Johor
+Porsche 718,Johor,Porsche,Johor
+Mercedes-Benz E200,Johor,Mercedes-Benz,Johor
+Honda Civic,Kuala Lumpur,Honda,Kuala Lumpur
+Honda BR-V,Johor,Honda,Johor
+Honda BR-V,Johor,Honda,Johor
+Perodua Aruz,Johor,Perodua,Johor
+Volkswagen Cross Touran,Johor,Volkswagen,Johor
+Ford Fiesta,Selangor,Ford,Selangor
+Honda Jazz,Selangor,Honda,Selangor
+Toyota Fortuner,Selangor,Toyota,Selangor
+Kia Picanto,Johor,Kia,Johor
+Ford Focus,Johor,Ford,Johor
+Mazda 3,Johor,Mazda,Johor
+Mercedes-Benz A200,Selangor,Mercedes-Benz,Selangor
+Perodua Alza,Johor,Perodua,Johor
+Mercedes-Benz A45 AMG,Selangor,Mercedes-Benz,Selangor
+Honda Accord,Johor,Honda,Johor
+Hyundai Grand Starex,Johor,Hyundai,Johor
+Kia Sorento,Kuala Lumpur,Kia,Kuala Lumpur
+Ford EcoSport,Kuala Lumpur,Ford,Kuala Lumpur
+Honda HR-V,Selangor,Honda,Selangor
+Audi A4,Kuala Lumpur,Audi,Kuala Lumpur
+Proton Perdana,Selangor,Proton,Selangor
+Mercedes-Benz CLA200,Kuala Lumpur,Mercedes-Benz,Kuala Lumpur
+Toyota Vios,Johor,Toyota,Johor
+Perodua Myvi,Selangor,Perodua,Selangor
+Proton Persona,Selangor,Proton,Selangor
+BMW 530i,Johor,BMW,Johor
+BMW 328i,Kuala Lumpur,BMW,Kuala Lumpur
+Volkswagen Golf,Kuala Lumpur,Volkswagen,Kuala Lumpur
+BMW 328i,Selangor,BMW,Selangor
+Ssangyong Stavic,Selangor,Ssangyong,Selangor
+Mercedes-Benz B200,Selangor,Mercedes-Benz,Selangor
+Mazda 3,Kedah,Mazda,Kedah
+Honda HR-V,Kedah,Honda,Kedah
+Honda Civic,Kedah,Honda,Kedah
+Mazda CX-5,Kedah,Mazda,Kedah
+Toyota Vios,Kedah,Toyota,Kedah
+Mazda 2,Kedah,Mazda,Kedah
+Land Rover Range Rover Evoque,Kuala Lumpur,Land,Kuala Lumpur
+Subaru XV,Kuala Lumpur,Subaru,Kuala Lumpur
+MINI Countryman,Kuala Lumpur,MINI,Kuala Lumpur
+Isuzu D-Max,Selangor,Isuzu,Selangor
+Mazda CX-5,Penang,Mazda,Pulau Pinang
