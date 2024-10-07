@@ -6,7 +6,7 @@
     "anchor": "middle",
     "fontWeight": "bold"
   },
-  "width": 600,
+  "width": 550,
   "height": 300,
   "projection": {"type": "equalEarth"},
   "data": {
@@ -22,8 +22,11 @@
           "format": {"type": "csv"}
         },
         "key": "State",
-        "fields": ["Car_Count"]
+        "fields": ["Car_Count", "Pop"]
       }
+    },
+    {
+      "calculate": "floor(datum.Car_Count / datum.Pop * 1000000)", "as": "Cars Resold per 10,000 population"
     }
     
   ],
@@ -36,34 +39,58 @@
       },
       "encoding": {
         "color": {
-          "condition": {
+          "condition": [{
             "test": "datum.Car_Count == 0 || datum.Car_Count == null",
-            "value": "#d3d3d3"
-          },
-          "field": "Car_Count",
+            "value": "#d3d3d3"},{
+            "test": "datum['properties.name'] == 'Kuala Lumpur'",
+            "value": "orange"
+          }],
+          "field": "Cars Resold per 10,000 population",
           "type": "quantitative",
           "scale": {
             "type": "log",
             "domain": [1, 307],
             "scheme": "blues"
           },
-          "legend": {"title": "Car Count"}
+          "legend": {"title": "Cars Resold per 10,000 People","titleFontSize": 12,"labelFontSize": 10, "titleAnchor": "middle"}
         },
         "tooltip": [
           {"field": "properties.name", "type": "nominal", "title": "State"},
-          {"field": "Car_Count", "type": "quantitative", "title": "Cars Resold"}
+          {"field": "Cars Resold per 10,000 population", "type": "quantitative", "title": "Cars Resold per 10,000 population"}
         ]
       }
     },
     {
       "transform": [{"filter": "datum.properties.name == 'Selangor'"}
                     ],
-      "mark": {"type": "text", "dy": 200, "dx": 30}, 
+      "mark": {"type": "text", "dy": 180, "dx": 190}, 
       "encoding": {
         "longitude": {"value": 101.5183},
         "latitude": {"value": 3.0738},
-        "text": {"field": "properties.name", "type": "nominal"},  
-        "color": {"value": "black"}  
+        "text": {"value": "Kuala Lumpur has the highest car resale rate"},  
+        "color": {"value": "black"} 
+      }
+    },
+    {
+      "transform": [{"filter": "datum.properties.name == 'Johor'"}
+                    ],
+      "mark": {"type": "text", "dy": 240, "dx": 200}, 
+      "encoding": {
+        "longitude": {"value": 102.2551},
+        "latitude": {"value": 6.1254},
+        "text": {"value": "Johor ranked third"},  
+        "color": {"value": "black"} 
+      }
+    },
+    {
+      "transform": [{"filter": "datum.properties.name == 'Pulau Pinang'"}
+                    ],
+      "mark": {"type": "text", "dy": 105, "dx": 105}, 
+      "encoding": {
+        "longitude": {"value": 102.2551},
+        "latitude": {"value": 6.1254},
+        "text": {"value": "Pulau Pinang ranked second"},  
+        "color": {"value": "black"} 
       }
     }
   ]
