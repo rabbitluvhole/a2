@@ -81,14 +81,14 @@
       <script type="text/javascript">
 
         var spec2 = "js/choropleth_vg.json";
-        vegaEmbed('#choropleth_map', spec2, { "actions": false }).then(function(result) {
+        vegaEmbed('#choropleth_map', spec2).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
 
 
         var spec3 = "js/bubblechart.json";
-        vegaEmbed('#bubble_chart', spec3, { "actions": false }).then(function(result) {
+        vegaEmbed('#bubble_chart', spec3).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
