@@ -60,11 +60,7 @@
 
 
         <div class="pure-u-1-2">
-          <div class="description description-right">
-            <h2 style="text-align: center;">Bubble Chart </h2>
-            <p style="text-align: center;"> <span class='boldBlue_text'> Selangor </span> being the largest bubble <br><br>
-            Press the states on the legend to filter bubbles by states.</p> 
-          </div>
+          <div id="bar_chart" class="vis-container"></div>
         </div>
         
       </div>
@@ -95,7 +91,15 @@
         vegaEmbed('#bubble_chart', spec3, { "actions": false }).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
+
+        var spec4 = "js/barchart.json";
+        vegaEmbed('#bar_chart', spec4).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
       </script>
+
+
     
 </body>
 </html>

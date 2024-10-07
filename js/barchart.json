@@ -1,8 +1,15 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Brands of cars sold in Malaysia",
+    "title": {
+      "text": "Brands of cars sold in Malaysia",
+      "fontSize": 18,
+      "anchor": "middle",
+      "fontWeight": "bold"
+    },
+    "width": 400,
     "data": {
-      "url": ""
+      "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/brand_count.csv"
     },
     "params": [
       {
@@ -13,17 +20,18 @@
     ],
     "mark": {
       "type": "bar",
-      "fill": "#4C78A8",
+      "fill": "#884f9e",
       "stroke": "black",
       "cursor": "pointer"
     },
     "encoding": {
-      "x": {"field": "a", "type": "ordinal"},
-      "y": {"field": "b", "type": "quantitative"},
+      "x": {"field": "Brand", "type": "nominal"},
+      "y": {"field": "Count", "type": "quantitative"},
       "fillOpacity": {
         "condition": {"param": "select", "value": 1},
         "value": 0.3
       },
+      
       "strokeWidth": {
         "condition": [
           {
@@ -38,7 +46,11 @@
           }
         ],
         "value": 0
-      }
+      },
+        "tooltip": [
+            {"field": "Brand", "type": "nominal"},
+            {"field": "Count", "type": "quantitative"}
+        ]
     },
     "config": {
       "scale": {
