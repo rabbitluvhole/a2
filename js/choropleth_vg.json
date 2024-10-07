@@ -41,7 +41,8 @@
         "color": {
           "condition": [{
             "test": "datum.Car_Count == 0 || datum.Car_Count == null",
-            "value": "#d3d3d3"},{
+            "value": "#d3d3d3"},
+            {
             "test": "datum['properties.name'] == 'Kuala Lumpur'",
             "value": "orange"
           }],
@@ -74,7 +75,7 @@
     {
       "transform": [{"filter": "datum.properties.name == 'Johor'"}
                     ],
-      "mark": {"type": "text", "dy": 240, "dx": 200}, 
+      "mark": {"type": "text", "dy": 240, "dx": 185}, 
       "encoding": {
         "longitude": {"value": 102.2551},
         "latitude": {"value": 6.1254},
