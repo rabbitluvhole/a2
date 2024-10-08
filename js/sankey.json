@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "title": "Sankey Diagram for Car Brands and Locations",
+    "width": 700,
+    "height": 400,
+    "padding": 5,
+    "autosize": "pad",
+    
+    "data": [
+      {
+        "name": "links",
+        "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/brand_location.csv", 
+        "format": {"type": "csv"}
+      },
+      {
+        "name": "nodes",
+        "source": "links",
+        "transform": [
+          {"type": "formula", "expr": "datum.source", "as": "id"},
+          {"type": "formula", "expr": "datum.target", "as": "id"},
+          {"type": "collect", "sort": {"field": "id"}}
+        ]
+      }
+    ],
+    
+    "scales": [
+      {
+        "name": "pos",
+        "type": "linear",
+        "range": "height",
+        "domain": {"data": "links", "field": "value"}
+      }
+    ],
+    
+    "marks": [
+      {
+        "type": "rect",
+        "from": {"data": "nodes"},
+        "encode": {
+          "enter": {
+            "x": {"value": 50},
+            "y": {"field": "value", "scale": "pos"},
+            "width": {"value": 20},
+            "height": {"field": "value", "scale": "pos"},
+            "fill": {"value": "steelblue"}
+          }
+        }
+      },
+      {
+        "type": "path",
+        "from": {"data": "links"},
+        "encode": {
+          "enter": {
+            "x": {"value": 50},
+            "y": {"field": "source", "scale": "pos"},
+            "path": {"field": "path"},
+            "strokeWidth": {"field": "value", "scale": "pos"},
+            "stroke": {"value": "#ccc"}
+          }
+        }
+      }
+    ]
+  }
+  
