@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple donut chart with embedded data.",
     "title": {
-      "text": "Gear Type in Percentage",
+      "text": "Transmission Type in %",
       "fontSize": 18,
       "anchor": "middle",
       "fontWeight": "bold"

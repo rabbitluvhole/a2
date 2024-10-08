@@ -6,7 +6,7 @@
     "anchor": "middle",
     "fontWeight": "bold"
   },
-  "width": 550,
+  "width": 650,
   "height": 300,
   "projection": {"type": "equalEarth"},
   "data": {
@@ -53,7 +53,7 @@
             "domain": [1, 307],
             "scheme": "blues"
           },
-          "legend": {"title": "Cars Resold per 10,000 People","titleFontSize": 12,"labelFontSize": 10, "titleAnchor": "middle"}
+          "legend": {"title": "Count","titleFontSize": 12,"labelFontSize": 10, "titleAnchor": "middle"}
         },
         "tooltip": [
           {"field": "properties.name", "type": "nominal", "title": "State"},
