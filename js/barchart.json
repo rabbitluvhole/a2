@@ -2,12 +2,12 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Brands of cars sold in Malaysia",
     "title": {
-      "text": "Brands of cars sold in Malaysia",
+      "text": "Brands of Cars Resold in Malaysia",
       "fontSize": 18,
       "anchor": "middle",
       "fontWeight": "bold"
     },
-    "width": 400,
+    "width": 420,
     "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/brand_count.csv"
@@ -17,17 +17,27 @@
         "name": "highlight",
         "select": {"type": "point", "on": "pointerover"}
       },
-      {"name": "select", "select": "point"}
+      {"name": "select", "select": "point"},
+      {
+        "name": "minCount",
+        "value": 0,
+        "bind": {"input": "range", "min": 0, "max": 140, "step": 1, "name": "Minimum Number of Cars Resold: "}
+      }
+    ],
+    "transform": [
+      {
+        "filter": "datum.Count >= minCount"
+      }
     ],
     "mark": {
       "type": "bar",
-      "fill": "#884f9e",
       "stroke": "black",
       "cursor": "pointer"
     },
     "encoding": {
       "x": {"field": "Brand", "type": "nominal"},
       "y": {"field": "Count", "type": "quantitative"},
+      "color":{"field": "Count", "type": "quantitative", "scale": {"scheme": "purples"}},
       "fillOpacity": {
         "condition": {"param": "select", "value": 1},
         "value": 0.3
