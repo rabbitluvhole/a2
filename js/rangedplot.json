@@ -1,0 +1,117 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "height": 400,
+    "width": 400,
+    "data": {"url": "data/metro_systems.csv"},
+    "transform": [
+      {
+        "aggregate": [
+          {"op": "mean", "field": "service_opened", "as": "avg_service_opened"},
+          {"op": "mean", "field": "last_expanded", "as": "avg_last_expanded"}
+        ],
+        "groupby": ["continent"]
+      },
+      {
+        "calculate": "round(datum.avg_service_opened)",
+        "as": "service_opened"
+      },
+      {
+        "calculate": "datum['continent'] == 'Oceania' ? 'Never Expanded' : round(datum.avg_last_expanded)",
+        "as": "last_expanded"
+      }
+    ],
+    "encoding": {
+      "y": {
+        "field": "continent",
+        "type": "nominal",
+        "title": "Continent",
+        "sort": ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+        "axis": {
+          "offset": 3,
+          "ticks": false,
+          "minExtent": 70,
+          "domain": false
+        }
+      }
+    },
+    "layer": [
+      {
+        "mark": "rule",
+        "encoding": {
+          "x": {
+            "field": "avg_service_opened",
+            "type": "quantitative",
+            "title": "Year",
+            "scale": {"domain": [1955, 2025]}
+          },
+          "x2": {
+            "field": "avg_last_expanded"
+          },
+          "color": {"value": "black"},
+          "strokeWidth": {"value": 1.5},
+          "opacity": {"value": 0.5},
+          "tooltip": [
+            {"field": "continent", "title": "Continent"},
+            {"field": "service_opened", "type": "quantitative", "title": "Average Opening Year"},
+            {"field": "last_expanded", "type": "nominal", "title": "Average Expansion Year"}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "point",
+          "filled": true
+        },
+        "encoding": {
+          "x": {
+            "field": "avg_service_opened",
+            "type": "quantitative"
+          },
+          "color": {
+            "field": "continent",
+            "type": "nominal",
+            "scale": {
+              "domain": ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+              "range": ["#9f40ad", "#f01619", "#3d87c4", "#0400ff", "#ff7f00", "#91471c"]
+            },
+            "title": "Continent"
+          },
+          "size": {"value": 170},
+          "opacity": {"value": 1},
+          "tooltip": [
+            {"field": "continent", "title": "Continent"},
+            {"field": "service_opened", "type": "quantitative", "title": "Average Opening Year"},
+            {"field": "last_expanded", "type": "nominal", "title": "Average Expansion Year"}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "point",
+          "filled": true
+        },
+        "encoding": {
+          "x": {
+            "field": "avg_last_expanded",
+            "type": "quantitative"
+          },
+          "color": {
+            "field": "continent",
+            "type": "nominal",
+            "scale": {
+              "domain": ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+              "range": ["#9f40ad", "#f01619", "#3d87c4", "#0400ff", "#ff7f00", "#91471c"]
+            },
+            "title": "Continent"
+          },
+          "size": {"value": 170},
+          "opacity": {"value": 1},
+          "tooltip": [
+            {"field": "continent", "title": "Continent"},
+            {"field": "service_opened", "type": "quantitative", "title": "Average Opening Year"},
+            {"field": "last_expanded", "type": "nominal", "title": "Average Expansion Year"}
+          ]
+        }
+      }
+    ]
+  }
