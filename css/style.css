@@ -28,7 +28,7 @@ body *{
 #choropleth_map, #bubble_chart {
     width: 50%; /* Let the grid control the width */
     max-width: 50%; /* Ensure the charts don’t exceed their grid column width */
-    height: 400px; /* Set height based on your design needs */
+    height: 100px; 
     margin: 0 auto;
 }
 
