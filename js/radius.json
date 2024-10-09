@@ -15,19 +15,19 @@
         "name": "table",
         "values": [
   
-          {"key": "BMW", "value": 17, "category": 1},
+          {"key": "BMW", "value": 30, "category": 1},
           {"key": "BMW", "value": 18, "category": 0},
 
-          {"key": "Honda", "value": 31, "category": 1},
+          {"key": "Honda", "value": 32, "category": 1},
           {"key": "Honda", "value": 24, "category": 0},
           
-          {"key": "Mazda", "value": 22, "category": 1},
+          {"key": "Mazda", "value": 7, "category": 1},
           {"key": "Mazda", "value": 13, "category": 0},
   
-          {"key": "Mercedes-Benz", "value": 16, "category": 1},
+          {"key": "Mercedes-Benz", "value": 18, "category": 1},
           {"key": "Mercedes-Benz", "value": 21, "category": 0},
       
-          {"key": "Toyota", "value": 19, "category": 1},
+          {"key": "Toyota", "value": 14, "category": 1},
           {"key": "Toyota", "value": 47, "category": 0}
   
         ]

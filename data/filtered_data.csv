@@ -1,44 +1,11 @@
 source,target,value
-Audi,Johor,4,2
-Audi,Kuala Lumpur,7,1
-BMW,Johor,17
 BMW,Kuala Lumpur,18
-Ford,Johor,2
-Ford,Kuala Lumpur,10
-Honda,Johor,31
+BMW,Pulau Pinang,30
 Honda,Kuala Lumpur,24
-Hyundai,Johor,14
-Hyundai,Kuala Lumpur,4
-Isuzu,Kuala Lumpur,1
-Kia,Johor,7
-Kia,Kuala Lumpur,11
-Land,Johor,1
-Land,Kuala Lumpur,5
-Lexus,Kuala Lumpur,4
-MINI,Johor,1
-MINI,Kuala Lumpur,3
-Mazda,Johor,21
+Honda,Pulau Pinang,32
 Mazda,Kuala Lumpur,13
-Mercedes-Benz,Johor,16
+Mazda,Pulau Pinang,7
 Mercedes-Benz,Kuala Lumpur,21
-Mitsubishi,Johor,3
-Mitsubishi,Kuala Lumpur,4
-Nissan,Johor,8
-Nissan,Kuala Lumpur,11
-Perodua,Johor,6
-Perodua,Kuala Lumpur,5
-Peugeot,Johor,8
-Peugeot,Kuala Lumpur,5
-Porsche,Johor,1
-Porsche,Kuala Lumpur,6
-Proton,Johor,13
-Proton,Kuala Lumpur,5
-Subaru,Johor,5
-Subaru,Kuala Lumpur,6
-Suzuki,Kuala Lumpur,2
-Toyota,Johor,19
+Mercedes-Benz,Pulau Pinang,18
 Toyota,Kuala Lumpur,47
-Volkswagen,Johor,23
-Volkswagen,Kuala Lumpur,8
-Volvo,Johor,2
-Volvo,Kuala Lumpur,1
+Toyota,Pulau Pinang,14

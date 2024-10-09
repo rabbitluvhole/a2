@@ -1,4 +1,4 @@
-import pandas as pd
+
 
 
 
@@ -19,14 +19,20 @@ import pandas as pd
 
 
 
+
+import pandas as pd
+
 # Load data from CSV
-df = pd.read_csv('brand_price_integer.csv')
+df = pd.read_csv('listingprice.csv')
 
-# Filter the DataFrame for the desired states
-df_filtered = df[df['Brand'].isin(["Honda", "BMW", "Toyota", "Mercedes-Benz", "Mazda"])]
+# Check min and max listing prices
+min_prices = df.groupby('Brand')['List_Price'].min()
+max_prices = df.groupby('Brand')['List_Price'].max()
 
-# Save the filtered DataFrame to a new CSV file
-df_filtered.to_csv('listingprice.csv', index=False)
+# Display the results
+print(pd.DataFrame({'Min Listing Price': min_prices, 'Max Listing Price': max_prices}))
+
+
 
 
 
