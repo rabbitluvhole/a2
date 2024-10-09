@@ -9,6 +9,7 @@
     },
     "width": 400,
     "height": 400,
+    "background": "transparent",
     "data": {
       "values": [
         {"category": "Manual", "value": 2},

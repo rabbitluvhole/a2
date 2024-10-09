@@ -5,6 +5,7 @@
     "height": 400,
     "padding": 40,
     "autosize": {"type": "none", "contains": "padding"},
+    "background": "transparent",
   
     "signals": [
       {"name": "radius", "update": "width / 2"}
@@ -183,6 +184,7 @@
           }
         }
       }
+      
     ]
   }
   
