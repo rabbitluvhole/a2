@@ -23,7 +23,7 @@ import pandas as pd
 df = pd.read_csv('brand_price_integer.csv')
 
 # Filter the DataFrame for the desired states
-df_filtered = df[df['Brand'].isin(["Honda", "BMW", "Toyota", "Mercedes-Benz", "Mazde"])]
+df_filtered = df[df['Brand'].isin(["Honda", "BMW", "Toyota", "Mercedes-Benz", "Mazda"])]
 
 # Save the filtered DataFrame to a new CSV file
 df_filtered.to_csv('listingprice.csv', index=False)
