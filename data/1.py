@@ -17,14 +17,17 @@ import pandas as pd
 
 
 
+
+
 # Load data from CSV
-df = pd.read_csv('brand_price.csv')
+df = pd.read_csv('brand_price_integer.csv')
 
-# Convert List_Price from string to integer
-df['List_Price'] = df['List_Price'].replace({'RM ': '', ',': ''}, regex=True).astype(int)
+# Filter the DataFrame for the desired states
+df_filtered = df[df['Brand'].isin(["Honda", "BMW", "Toyota", "Mercedes-Benz", "Mazde"])]
 
-# Save the updated DataFrame to a new CSV file
-df.to_csv('brand_price_integer.csv', index=False)
+# Save the filtered DataFrame to a new CSV file
+df_filtered.to_csv('listingprice.csv', index=False)
+
 
 
 

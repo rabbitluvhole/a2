@@ -1,11 +1,11 @@
 "State","Car_Count","Pop"
-"Johor",202, 3794200
-"Kedah",8, 2193600
-"Kuala Lumpur",221, 1746600
-"Melaka",1, 937800
-"Pulau Pinang",146, 1774200
-"Perak",3, 2509000
-"Selangor",307, 6555100
+"Johor",202, 3794200,2
+"Kedah",8, 2193600,
+"Kuala Lumpur",221, 1746600,1
+"Melaka",1, 937800, 
+"Pulau Pinang",146, 1774200, 3
+"Perak",3, 2509000, 
+"Selangor",307, 6555100, 
 "Pahang",0, 1684700
 "Terengganu",0, 1275200
 "Sabah",0, 3832500
