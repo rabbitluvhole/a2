@@ -3,60 +3,33 @@
     "height": 400,
     "width": 300,
     "data": {
-      "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/listingprice.csv"
-    },
-    "transform": [
-      {
-        "aggregate": [
-          {
-            "op": "min",
-            "field": "List_Price",
-            "as": "min_listing_price"
-          },
-          {
-            "op": "max",
-            "field": "List_Price",
-            "as": "max_listing_price"
-          }
-        ],
-        "groupby": ["Brand"]
-      }
-    ],
-    "encoding": {
-      "y": {
-        "field": "Brand",
-        "type": "nominal",
-        "title": "Brands",
-        "sort": ["BMW", "Honda", "Toyota", "Mercedes-Benz", "Mazda"],
-        "axis": {
-          "offset": 3,
-          "ticks": false,
-          "minExtent": 70,
-          "domain": false
-        }
-      },
-      "x": {
-        "field": "min_listing_price",
-        "type": "quantitative",
-        "title": "Listing Price",
-        "scale": {"domain": [97500, 108800]}  
-      },
-      "tooltip": [
-        {"field": "Brand", "title": "Brand"},
-        {"field": "min_listing_price", "type": "quantitative", "title": "Min Listing Price"},
-        {"field": "max_listing_price", "type": "quantitative", "title": "Max Listing Price"}
+      "values": [
+        {"Brand": "BMW", "Min_Listing_Price": 39999, "Max_Listing_Price": 538800},
+        {"Brand": "Honda", "Min_Listing_Price": 24800, "Max_Listing_Price": 139999},
+        {"Brand": "Mazda", "Min_Listing_Price": 21900, "Max_Listing_Price": 115888},
+        {"Brand": "Mercedes-Benz", "Min_Listing_Price": 42800, "Max_Listing_Price": 438800},
+        {"Brand": "Toyota", "Min_Listing_Price": 28800, "Max_Listing_Price": 588000}
       ]
     },
     "layer": [
       {
-        "mark": {
-          "type": "rule",
-          "color": "black",
-          "strokeWidth": 1.5
-        },
+        "mark": "rule",
         "encoding": {
-          "x": {"field": "min_listing_price"},
-          "x2": {"field": "max_listing_price"}
+          "x": {
+            "field": "Min_Listing_Price",
+            "type": "quantitative",
+            "title": "Listing Price Range"
+          },
+          "x2": {
+            "field": "Max_Listing_Price"
+          },
+          "y": {
+            "field": "Brand",
+            "type": "nominal",
+            "sort": "ascending",
+            "title": "Brand"
+          }
+          
         }
       },
       {
@@ -66,15 +39,25 @@
           "size": 100
         },
         "encoding": {
-          "x": {"field": "min_listing_price"},
-          "color": {
+          "x": {
+            "field": "Min_Listing_Price",
+            "type": "quantitative"
+          }, "color": {
+              "field": "Brand",
+              "type": "nominal",
+              "scale": {
+                "domain": ["BMW", "Honda", "Toyota", "Mercedes-Benz", "Mazda"],
+                "range": ["#9f40ad", "#f01619", "#3d87c4", "#0400ff", "#ff7f00"]
+              }
+            },
+          "y": {
             "field": "Brand",
-            "type": "nominal",
-            "scale": {
-              "domain": ["BMW", "Honda", "Toyota", "Mercedes-Benz", "Mazda"],
-              "range": ["#9f40ad", "#f01619", "#3d87c4", "#0400ff", "#ff7f00"]
-            }
-          }
+            "type": "nominal"
+          },
+          "tooltip": [
+          {"field": "Brand", "title": "Brand"},
+          {"field": "Min_Listing_Price", "type": "quantitative", "title": "Minimum Listing Price"}
+        ]
         }
       },
       {
@@ -82,17 +65,28 @@
           "type": "point",
           "filled": true,
           "size": 100
+      
         },
         "encoding": {
-          "x": {"field": "max_listing_price"},
-          "color": {
+          "x": {
+            "field": "Max_Listing_Price",
+            "type": "quantitative"
+          }, "color": {
+              "field": "Brand",
+              "type": "nominal",
+              "scale": {
+                "domain": ["BMW", "Honda", "Toyota", "Mercedes-Benz", "Mazda"],
+                "range": ["#9f40ad", "#f01619", "#3d87c4", "#0400ff", "#ff7f00"]
+              }
+            },
+          "y": {
             "field": "Brand",
-            "type": "nominal",
-            "scale": {
-              "domain": ["BMW", "Honda", "Toyota", "Mercedes-Benz", "Mazda"],
-              "range": ["#9f40ad", "#f01619", "#3d87c4", "#0400ff", "#ff7f00"]
-            }
-          }
+            "type": "nominal"
+          },
+          "tooltip": [
+          {"field": "Brand", "title": "Brand"},
+          {"field": "Max_Listing_Price", "type": "quantitative", "title": "Maximum Listing Price"}
+        ]
         }
       }
     ]
