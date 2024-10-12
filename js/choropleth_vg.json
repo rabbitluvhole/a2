@@ -65,11 +65,11 @@
     {
       "transform": [{"filter": "datum.properties.name == 'Selangor'"}
                     ],
-      "mark": {"type": "text", "dy": 180, "dx": 190}, 
+      "mark": {"type": "text", "dy": 180, "dx": 90}, 
       "encoding": {
         "longitude": {"value": 101.5183},
         "latitude": {"value": 3.0738},
-        "text": {"value": "Kuala Lumpur has the highest car resale rate"},  
+        "text": {"value": "Kuala Lumpur: 126 cars"},  
         "color": {"value": "black"} 
       }
     },
@@ -80,18 +80,18 @@
       "encoding": {
         "longitude": {"value": 102.2551},
         "latitude": {"value": 6.1254},
-        "text": {"value": "Johor ranked third"},  
+        "text": {"value": "Johor: 53 cars"},  
         "color": {"value": "black"} 
       }
     },
     {
       "transform": [{"filter": "datum.properties.name == 'Pulau Pinang'"}
                     ],
-      "mark": {"type": "text", "dy": 105, "dx": 105}, 
+      "mark": {"type": "text", "dy": 105, "dx": 90}, 
       "encoding": {
         "longitude": {"value": 102.2551},
         "latitude": {"value": 6.1254},
-        "text": {"value": "Pulau Pinang ranked second"},  
+        "text": {"value": "Pulau Pinang: 82 cars"},  
         "color": {"value": "black"} 
       }
     }

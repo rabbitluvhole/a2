@@ -8,7 +8,8 @@
       "fontWeight": "bold"
     },
     "width": 420,
-    "height": 300,
+    "height": 370,
+    "background": "transparent",
     "data": {
       "url": "https://raw.githubusercontent.com/rabbitluvhole/a2/refs/heads/main/data/brand_count.csv"
     },

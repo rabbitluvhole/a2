@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "A radar chart example, showing multiple dimensions in a radial layout.",
     "width": 400,
-    "height": 400,
+    "height": 443,
     "padding": 40,
     "autosize": {"type": "none", "contains": "padding"},
     "background": "transparent",
